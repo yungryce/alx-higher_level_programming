@@ -1,6 +1,6 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 for char_code in range(0, 100):
     if char_code < 99:
-        print(f"{char_code:02}", end=', ')
+        print("{:02}".format(char_code), end=', ')
     else:
-        print(f"{char_code}")
+        print("{}".format(char_code))
