@@ -6,4 +6,4 @@ def uppercase(str):
             result += chr(ord(c) - ord('a') + ord('A'))
         else:
             result += c
-    return result
+    print({}.format(result))
