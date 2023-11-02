@@ -1,13 +1,14 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    """imports all functions from the file calculator_1.py and handles basic operations."""
-    import sys, calculator_1
+    """imports all functions from the file and handles basic operations."""
+    import sys
+    from calculator_1 import add, sub, mul, div
 
     operators = {
-        '+': calculator_1.add,
-        '-': calculator_1.sub,
-        '*': calculator_1.mul,
-        '/': calculator_1.div
+        '+': add,
+        '-': sub,
+        '*': mul,
+        '/': div
     }
 
     if len(sys.argv) != 4:
