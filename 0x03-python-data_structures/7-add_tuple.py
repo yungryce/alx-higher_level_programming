@@ -1,19 +1,11 @@
 #!/usr/bin/python3
-tuple_a = (1, 89)
-tuple_b = (88, 11)
 
 def add_tuple(tuple_a=(), tuple_b=()):
 
-    pairs = (tuple_a, tuple_b)
-    sum_pairs = ()
+    while len(tuple_a) < 2:
+        tuple_a += (0,)
+    while len(tuple_b) < 2:
+        tuple_b += (0,)
 
-    for i, j in pairs:
-        sum_pairs += (i + j,)
-
-    return sum_pairs
-
-new_tuple = add_tuple(tuple_a, tuple_b)
-print(new_tuple)
-
-print(add_tuple(tuple_a, (1, )))
-print(add_tuple(tuple_a, ()))
+    pairs = (tuple_a[0] + tuple_b[0]), (tuple_a[1] + tuple_b[1])
+    return pairs
