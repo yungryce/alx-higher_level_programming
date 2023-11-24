@@ -1,0 +1,62 @@
+===========================
+How to Use 0-add_integer.py
+===========================
+
+Usage
+-------------------
+
+Importing the function from the module:
+	>>> add_integer = __import__("0-add_integer").add_integer
+
+Checking for module docstring:
+	 >>> len(__import__("0-add_integer").__doc__) > 1
+	 True
+
+Checking for function docstring:
+	 >>> len(__import__("0-add_integer").add_integer.__doc__) > 1
+         True
+
+Integers
+	>>> add_integer(2, 3)
+	5
+
+Negative Integer
+	>>> add_integer(-1, 1)
+	0
+
+Floats
+	>>> add_integer(2.6, 3.55)
+	5
+
+Empty parameter
+	>>> add_integer(0.3, )
+	98
+
+String
+	>>> add_integer(2, "3")
+	Traceback (most recent call last):
+	TypeError: b must be an integer
+
+String, Negative number
+	>>> add_integer("obi", -87)
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+Long Integer
+	>>> add_integer(7876545667789809, 3)
+	7876545667789812
+
+Tuple, String
+	>>> add_integer((9, ), "john")
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+Float, List
+	>>> add_integer(3876.765, [])
+	Traceback (most recent call last):
+	TypeError: b must be an integer
+
+None, Dictionary
+	>>> add_integer(None, {4: "jay"})
+	Traceback (most recent call last):
+	TypeError: a must be an integer
