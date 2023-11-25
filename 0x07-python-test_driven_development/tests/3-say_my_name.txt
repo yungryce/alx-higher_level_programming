@@ -1,0 +1,60 @@
+===========================
+How to Use matrix_divided
+===========================
+
+Usage
+-------------------
+
+Importing the function from the module:
+        >>> say_my_name = __import__("3-say_my_name").say_my_name
+
+Checking for module docstring:
+	>>> len(__import__("3-say_my_name").__doc__) > 1
+	True
+
+Checking for function docstring:
+	>>> len(__import__("3-say_my_name").say_my_name.__doc__) > 1
+	True
+
+Both Strings
+	>>> say_my_name("John", "Smith")
+	My name is John Smith
+
+Single parameter string
+	>>> say_my_name("John")
+	My name is John 
+
+Parenthesis
+	>>> say_my_name(("boy"), "state")
+	My name is boy state
+
+No parameter
+	>>> say_my_name()
+	Traceback (most recent call last):
+	TypeError: say_my_name() missing 1 required positional argument: 'first_name'
+
+None
+	>>> say_my_name(None)
+	Traceback (most recent call last):
+	TypeError: first_name must be a string
+
+Non String parameters
+        >>> say_my_name("John", 3)
+	Traceback (most recent call last):
+	TypeError: last_name must be a string
+
+	>>> say_my_name(3j, "state")
+	Traceback (most recent call last):
+	TypeError: first_name must be a string
+
+	>>> say_my_name(3, 5)
+	Traceback (most recent call last):
+	TypeError: first_name must be a string
+
+	>>> say_my_name([], "state")
+	Traceback (most recent call last):
+	TypeError: first_name must be a string
+
+	>>> say_my_name(("boy", ), "state")
+	Traceback (most recent call last):
+	TypeError: first_name must be a string
