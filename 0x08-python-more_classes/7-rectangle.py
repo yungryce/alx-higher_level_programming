@@ -5,6 +5,7 @@
 class Rectangle:
     """defines a Rectangle class"""
     number_of_instances = 0
+    print_symbol = '#'
 
     def __init__(self, width=0, height=0):
         """
@@ -59,12 +60,12 @@ class Rectangle:
             return ""
         result = ""
         for _ in range(self.__height):
-            result += '#' * self.__width + '\n'
+            result += str(self.print_symbol) * self.__width + '\n'
         return result.rstrip('\n')
 
     def __repr__(self):
         """returns a string representation of the rectangle for reproduction"""
-        return f"Rectangle({self.__width}, {self.__height})"
+        return f"Rectangle({width}, {height})"
 
     def __del__(self):
         """prints a string when an instance has been deleted"""
