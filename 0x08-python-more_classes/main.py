@@ -1,6 +1,6 @@
-#!/usr/bin/python3
-Rectangle = __import__('9-rectangle').Rectangle
+def solve_nqueens(n):
+    board = [[0] * n for _ in range(n)]
+    solutions = solve_nqueens_util(board, 0)
+    return solutions
 
-my_square = Rectangle.square(5)
-print("Area: {} - Perimeter: {}".format(my_square.area(), my_square.perimeter()))
-print(my_square)
+solve_nqueens(4)
