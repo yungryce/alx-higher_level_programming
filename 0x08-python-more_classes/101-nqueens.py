@@ -1,11 +1,10 @@
 #!/usr/bin/python3
+import sys
 """
 nqueens backtracking program to print the coordinates of n queens
 on an nxn grid such that they are all in non-attacking positions
 """
 
-
-import sys
 
 def is_safe(board, row, col):
     """
@@ -25,6 +24,7 @@ def is_safe(board, row, col):
            board[i] + i == col + row:
             return False
     return True
+
 
 def solve_nqueens_util(board, row):
     """
@@ -47,6 +47,7 @@ def solve_nqueens_util(board, row):
             solutions.extend(solve_nqueens_util(board, row + 1))
     return solutions
 
+
 def solve_nqueens(n):
     """
     Solve the N-Queens problem for a given board size.
@@ -57,17 +58,19 @@ def solve_nqueens(n):
     Returns:
     - List of solutions, where each solution is a list of positions (row, col).
     """
-    #board = [[0] * n for _ in range(n)]
+    # board = [[0] * n for _ in range(n)]
     board = [-1] * n
     solutions = solve_nqueens_util(board, 0)
     return solutions
+
 
 def print_solutions(solutions):
     """
     Print the N-Queens solutions.
 
     Parameters:
-    - solutions: List of solutions, where each solution is a list of positions (row, col).
+    - solutions: List of solutions, where each solution is a list of
+    positions (row, col).
     """
     for solution in solutions:
         print([list(pos) for pos in solution])
