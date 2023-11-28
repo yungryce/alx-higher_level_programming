@@ -1,0 +1,115 @@
+===========================
+Text Indentation
+===========================
+
+Usage
+-------------------
+
+Importing the function from the module:
+        >>> text_indentation = __import__("5-text_indentation").text_indentation
+
+Checking for module docstring:
+	>>> len(__import__("5-text_indentation").__doc__) > 1
+	True
+
+Checking for function docstring:
+	>>> len(__import__("5-text_indentation").text_indentation.__doc__) > 1
+	True
+
+Empty Parameter
+	>>> text_indentation("")
+
+Single-word sentence
+	>>> text_indentation("Hello.")
+	Hello.
+	<BLANKLINE>
+
+Test with multiple sentences and different sentence-ending punctuation
+	>>> text_indentation("This is a sentence. And another one! What about this? Multiple sentences: first, second, third.")
+	This is a sentence.
+	<BLANKLINE>
+	And another one! What about this?
+	<BLANKLINE>
+	Multiple sentences:
+	<BLANKLINE>
+	first, second, third.
+	<BLANKLINE>
+
+Test with leading and trailing spaces
+	>>> text_indentation("   This has leading spaces.   ")
+	This has leading spaces.
+	<BLANKLINE>
+
+# Test with sentences containing digits
+	>>> text_indentation("The answer is 42. Or is it 21?")
+	The answer is 42.
+	<BLANKLINE>
+	Or is it 21?
+	<BLANKLINE>
+
+# Test with sentences containing special characters
+	>>> text_indentation("The quick brown fox jumped over the lazy dog. But what about the @#%&* characters?")
+	The quick brown fox jumped over the lazy dog.
+	<BLANKLINE>
+	But what about the @#%&* characters?
+	<BLANKLINE>
+
+# Test with sentences containing multiple spaces between words
+	>>> text_indentation("   Multiple   spaces   between   words.   ")
+	Multiple   spaces   between   words.
+	<BLANKLINE>
+
+# Test with sentences starting with spaces
+	>>> text_indentation("   Starting with spaces. And another. ")
+	Starting with spaces.
+	<BLANKLINE>
+	And another.
+	<BLANKLINE>
+
+# Test with sentences ending with spaces
+	>>> text_indentation("Ending with spaces. Another sentence.   ")
+	Ending with spaces.
+	<BLANKLINE>
+	Another sentence.
+	<BLANKLINE>
+
+# Test with sentences containing only punctuation
+	>>> text_indentation("... ??? : : : ! ! !")
+	<BLANKLINE>
+	<BLANKLINE>
+	<BLANKLINE>
+	<BLANKLINE>
+	<BLANKLINE>
+	<BLANKLINE>
+	<BLANKLINE>
+	<BLANKLINE>
+	<BLANKLINE>
+	<BLANKLINE>
+	<BLANKLINE>
+	<BLANKLINE>
+	<BLANKLINE>
+	<BLANKLINE>
+	<BLANKLINE>
+	<BLANKLINE>
+	<BLANKLINE>
+	<BLANKLINE>
+
+Checking for no args:
+	 >>> text_indentation()
+	 Traceback (most recent call last):
+	 TypeError: text_indentation() missing 1 required positional argument: 'text'
+
+Checking for too many args:
+	 >>> text_indentation("Hello", "Hi")
+	 Traceback (most recent call last):
+	 TypeError: text_indentation() takes 1 positional argument but 2 were given
+
+Checking for passing None:
+	 >>> text_indentation(None)
+	 Traceback (most recent call last):
+	 TypeError: text must be a string
+
+Checking for passing non-string type:
+	 >>> text_indentation(1)
+         Traceback (most recent call last):
+         TypeError: text must be a string
