@@ -87,7 +87,7 @@ class Base:
                 dict_list = cls.from_json_string(json_string)
                 return [cls.create(**d) for d in dict_list]
         except IOError:
-            return
+            return []
 
     @classmethod
     def save_to_file_csv(cls, list_objs):
