@@ -2,4 +2,4 @@
 SELECT title, SUM(rate) rating FROM tv_shows
 LEFT JOIN tv_show_ratings ON tv_show_ratings.show_id = tv_shows.id
 GROUP BY title
-ORDER BY rating DESC
+ORDER BY rating DESC;
