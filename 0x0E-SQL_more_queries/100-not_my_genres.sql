@@ -6,4 +6,4 @@ WHERE name NOT IN (
 	LEFT JOIN tv_shows ON tv_show_genres.show_id = tv_shows.id
 	WHERE title = 'Dexter')
 GROUP BY name
-ORDER BY name ASC
+ORDER BY name ASC;
