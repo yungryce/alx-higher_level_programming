@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# URL with the email as a parameter, and displays the body of the response
+"""URL with the email as a parameter, and displays the body of the response"""
 
 import urllib.request
 import urllib.parse
