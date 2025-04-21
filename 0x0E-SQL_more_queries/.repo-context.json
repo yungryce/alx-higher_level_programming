@@ -1,0 +1,58 @@
+{
+  "contextType": "educational",
+  "contextName": "SQL - More Queries",
+  "contextDescription": "Advanced SQL operations focusing on user permissions, constraints, joins, and complex queries using MySQL",
+  "mainLanguage": "sql",
+  "supportLanguages": ["mysql", "bash"],
+  "topics": [
+    "mysql-user-management",
+    "permissions",
+    "grant-revoke",
+    "constraints",
+    "primary-keys",
+    "foreign-keys",
+    "not-null",
+    "unique",
+    "joins",
+    "left-join",
+    "right-join",
+    "inner-join",
+    "union",
+    "subqueries",
+    "database-relationships"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Create and manage MySQL users with specific privileges",
+    "Implement constraints including PRIMARY KEY, FOREIGN KEY, NOT NULL, and UNIQUE",
+    "Design and query relational databases with proper table relationships",
+    "Use JOIN operations to retrieve data from multiple tables",
+    "Write and execute subqueries for complex data retrieval",
+    "Apply UNION to combine result sets from multiple queries",
+    "Understand and implement database design best practices"
+  ],
+  "prerequisites": [
+    "Basic SQL knowledge (SELECT, INSERT, UPDATE, DELETE)",
+    "Database creation and basic table management",
+    "Understanding of relational database concepts"
+  ],
+  "associatedProjects": {
+    "previous": "0x0D-SQL_introduction",
+    "next": "0x0F-python-object_relational_mapping",
+    "related": ["python-object_relational_mapping"]
+  },
+  "resources": [
+    {
+      "name": "MySQL Documentation",
+      "url": "https://dev.mysql.com/doc/"
+    },
+    {
+      "name": "SQL Joins Visualizer",
+      "url": "https://joins.spathon.com/"
+    },
+    {
+      "name": "MySQL User Management",
+      "url": "https://dev.mysql.com/doc/refman/8.0/en/user-account-management.html"
+    }
+  ]
+}

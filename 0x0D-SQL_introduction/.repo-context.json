@@ -1,0 +1,54 @@
+{
+  "contextType": "educational",
+  "contextName": "SQL Introduction",
+  "contextDescription": "Introduction to SQL (Structured Query Language) databases, covering the fundamentals of MySQL database management, basic CRUD operations, and data querying techniques",
+  "mainLanguage": "sql",
+  "supportLanguages": ["bash"],
+  "topics": [
+    "relational-databases",
+    "mysql",
+    "data-definition-language",
+    "data-manipulation-language",
+    "database-queries",
+    "database-administration",
+    "database-design",
+    "constraints",
+    "sql-basics"
+  ],
+  "skillLevel": "beginner",
+  "learningObjectives": [
+    "Understand what databases are and their purpose",
+    "Differentiate between SQL and MySQL",
+    "Create databases and tables in MySQL",
+    "Perform basic CRUD operations (Create, Read, Update, Delete)",
+    "Execute queries with constraints and filtering",
+    "Work with subqueries and basic functions",
+    "Understand data types and constraints in MySQL",
+    "Import and export data to/from databases",
+    "Manage databases through command line tools"
+  ],
+  "prerequisites": [
+    "Basic command line knowledge",
+    "Understanding of data organization concepts",
+    "Familiarity with Python programming"
+  ],
+  "associatedProjects": {
+    "previous": "0x0C-python-almost_a_circle",
+    "next": "0x0E-SQL_more_queries",
+    "related": ["0x0F-python-object_relational_mapping"]
+  },
+  "resources": [
+    {
+      "name": "MySQL Documentation",
+      "url": "https://dev.mysql.com/doc/"
+    },
+    {
+      "name": "SQL Tutorial - W3Schools",
+      "url": "https://www.w3schools.com/sql/"
+    },
+    {
+      "name": "What is Database & SQL?",
+      "url": "https://www.youtube.com/watch?v=FR4QIeZaPeM"
+    }
+  ]
+}
