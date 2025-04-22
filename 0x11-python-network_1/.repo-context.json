@@ -1,0 +1,70 @@
+{
+  "contextType": "educational",
+  "contextName": "Python - Network #1",
+  "contextDescription": "A comprehensive exploration of Python HTTP requests using urllib and requests libraries, covering making HTTP requests, handling responses, parsing JSON data, and interacting with APIs.",
+  "mainLanguage": "python",
+  "supportLanguages": ["json"],
+  "topics": [
+    "python-http-requests",
+    "urllib-library",
+    "requests-library",
+    "http-methods",
+    "response-handling",
+    "error-handling",
+    "json-parsing",
+    "api-interaction",
+    "http-headers",
+    "request-parameters",
+    "web-scraping",
+    "github-api",
+    "rest-api",
+    "http-error-codes",
+    "web-programming"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand how to fetch internet resources with the Python package urllib",
+    "Learn how to decode urllib body response",
+    "Master making HTTP GET, POST, PUT, and DELETE requests with the Python requests package",
+    "Handle HTTP errors and status codes appropriately",
+    "Work with JSON resources returned from APIs",
+    "Manipulate data from external services",
+    "Extract specific information from HTTP headers",
+    "Send parameters in URLs and in request bodies",
+    "Authenticate with APIs using various methods",
+    "Understand the differences between urllib and requests packages"
+  ],
+  "prerequisites": [
+    "Basic Python syntax and concepts",
+    "Understanding of HTTP protocol basics",
+    "Familiarity with JSON format",
+    "Knowledge of API concepts"
+  ],
+  "associatedProjects": {
+    "previous": "0x10-python-network_0",
+    "next": "0x12-javascript-warm_up",
+    "related": ["python-network_0", "javascript-web_scraping"]
+  },
+  "resources": [
+    {
+      "name": "urllib — URL handling modules",
+      "url": "https://docs.python.org/3/library/urllib.html"
+    },
+    {
+      "name": "Requests: HTTP for Humans",
+      "url": "https://requests.readthedocs.io/en/latest/"
+    },
+    {
+      "name": "HTTP Status Codes",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status"
+    },
+    {
+      "name": "GitHub API Documentation",
+      "url": "https://docs.github.com/en/rest"
+    },
+    {
+      "name": "JSON Encoder and Decoder",
+      "url": "https://docs.python.org/3/library/json.html"
+    }
+  ]
+}

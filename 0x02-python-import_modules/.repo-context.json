@@ -1,0 +1,66 @@
+{
+  "contextType": "educational",
+  "contextName": "Python - Import & Modules",
+  "contextDescription": "Understanding Python module imports, command line arguments, and leveraging external code",
+  "mainLanguage": "python",
+  "supportLanguages": [],
+  "topics": [
+    "python-modules",
+    "module-imports",
+    "python-packages",
+    "command-line-arguments",
+    "code-reusability",
+    "namespace-management",
+    "standard-library",
+    "import-mechanisms",
+    "module-discovery",
+    "module-execution",
+    "dir-function",
+    "module-attributes",
+    "custom-imports",
+    "execution-guards"
+  ],
+  "skillLevel": "beginner",
+  "learningObjectives": [
+    "Understand why Python programming is awesome",
+    "Learn how to import functions from another file",
+    "Use imported functions in code",
+    "Create a module in Python",
+    "Use the built-in function dir()",
+    "Prevent code execution when imported",
+    "Use command line arguments with Python programs",
+    "Understand various import techniques",
+    "Handle module attributes and discovery",
+    "Apply best practices for module organization",
+    "Create and use Python packages",
+    "Utilize Python's standard library effectively"
+  ],
+  "prerequisites": [
+    "Python basic syntax and concepts",
+    "Python control flow (if/else, loops, functions)",
+    "Command line/terminal basic usage"
+  ],
+  "associatedProjects": {
+    "previous": "0x01-python-if_else_loops_functions",
+    "next": "0x03-python-data_structures",
+    "related": ["python-more_data_structures", "python-test_driven_development"]
+  },
+  "resources": [
+    {
+      "name": "Python Documentation - Modules",
+      "url": "https://docs.python.org/3/tutorial/modules.html"
+    },
+    {
+      "name": "Python Standard Library",
+      "url": "https://docs.python.org/3/library/index.html"
+    },
+    {
+      "name": "Import System Documentation",
+      "url": "https://docs.python.org/3/reference/import.html"
+    },
+    {
+      "name": "Command Line Arguments in Python",
+      "url": "https://docs.python.org/3/library/sys.html#sys.argv"
+    }
+  ]
+}

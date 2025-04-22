@@ -1,0 +1,127 @@
+{
+  "contextType": "educational",
+  "contextName": "Higher-Level Programming",
+  "contextDescription": "Comprehensive curriculum covering Python, JavaScript, SQL, and web-related technologies, focusing on high-level programming concepts, object-oriented programming, databases, and web development",
+  "mainLanguage": "python",
+  "supportLanguages": ["javascript", "sql", "html", "css", "shell"],
+  "topics": [
+    "python-programming",
+    "object-oriented-programming",
+    "data-structures",
+    "exceptions",
+    "classes",
+    "inheritance",
+    "file-io",
+    "databases",
+    "sql",
+    "orm",
+    "javascript",
+    "dom-manipulation",
+    "jquery",
+    "http",
+    "rest-apis",
+    "web-scraping",
+    "test-driven-development",
+    "unit-testing"
+  ],
+  "skillLevel": "beginner-to-advanced",
+  "learningSequence": [
+    "python-hello-world",
+    "python-if-else-loops-functions",
+    "python-import-modules",
+    "python-data-structures",
+    "python-more-data-structures",
+    "python-exceptions",
+    "python-classes",
+    "python-test-driven-development",
+    "python-more-classes",
+    "python-everything-is-object",
+    "python-inheritance",
+    "python-input-output",
+    "python-almost-a-circle",
+    "sql-introduction",
+    "sql-more-queries",
+    "python-object-relational-mapping",
+    "python-network-0",
+    "python-network-1",
+    "javascript-warm-up",
+    "javascript-objects-scopes-closures",
+    "javascript-web-scraping",
+    "javascript-web-jquery"
+  ],
+  "projectStructure": {
+    "pythonFundamentals": [
+      "0x00-python-hello_world",
+      "0x01-python-if_else_loops_functions",
+      "0x02-python-import_modules",
+      "0x03-python-data_structures",
+      "0x04-python-more_data_structures",
+      "0x05-python-exceptions"
+    ],
+    "objectOrientedProgramming": [
+      "0x06-python-classes",
+      "0x07-python-test_driven_development",
+      "0x08-python-more_classes",
+      "0x09-python-everything_is_object",
+      "0x0A-python-inheritance",
+      "0x0B-python-input_output",
+      "0x0C-python-almost_a_circle"
+    ],
+    "databases": [
+      "0x0D-SQL_introduction",
+      "0x0E-SQL_more_queries",
+      "0x0F-python-object_relational_mapping"
+    ],
+    "networking": [
+      "0x10-python-network_0",
+      "0x11-python-network_1"
+    ],
+    "javascript": [
+      "0x12-javascript-warm_up",
+      "0x13-javascript_objects_scopes_closures",
+      "0x14-javascript-web_scraping",
+      "0x15-javascript-web_jquery"
+    ]
+  },
+  "outcomes": {
+    "technicalSkills": [
+      "Python language proficiency",
+      "JavaScript programming",
+      "Object-oriented design",
+      "Database management",
+      "Web development",
+      "API integration",
+      "Testing methodologies",
+      "HTTP and web protocols",
+      "DOM manipulation",
+      "Front-end development basics"
+    ],
+    "softSkills": [
+      "Analytical thinking",
+      "Problem-solving",
+      "Code organization",
+      "Project planning",
+      "Self-directed learning",
+      "Attention to detail",
+      "Technical documentation"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Python Documentation",
+      "url": "https://docs.python.org/3/"
+    },
+    {
+      "name": "MDN Web Docs (JavaScript)",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+      "name": "MySQL Documentation",
+      "url": "https://dev.mysql.com/doc/"
+    },
+    {
+      "name": "PEP 8 Style Guide",
+      "url": "https://peps.python.org/pep-0008/"
+    }
+  ]
+}

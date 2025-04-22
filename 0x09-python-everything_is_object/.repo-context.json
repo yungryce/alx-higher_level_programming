@@ -1,0 +1,74 @@
+{
+  "contextType": "educational",
+  "contextName": "Python - Everything is object",
+  "contextDescription": "Deep dive into Python's object model, memory management, and variable manipulation, exploring object identity, mutability, reference counting, and object-oriented principles in Python.",
+  "mainLanguage": "python",
+  "supportLanguages": ["txt"],
+  "topics": [
+    "python-objects",
+    "object-identity",
+    "mutability",
+    "immutability",
+    "references",
+    "aliasing",
+    "memory-management",
+    "garbage-collection",
+    "reference-counting",
+    "variable-assignment",
+    "object-instantiation",
+    "object-copying",
+    "object-comparison",
+    "object-lifetime",
+    "id-function",
+    "is-operator",
+    "equality-vs-identity"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand why Python programming is awesome",
+    "Explain what an object is in Python",
+    "Differentiate between a class and an object or instance",
+    "Understand the difference between immutable and mutable objects",
+    "Define what a reference is in Python",
+    "Explain what an assignment is in Python",
+    "Know what an alias is in Python",
+    "Determine if two variables are identical",
+    "Determine if two variables are linked to the same object",
+    "Display the variable identifier (memory address) in Python",
+    "Understand how Python passes variables to functions",
+    "Master the concepts of immutable vs mutable objects",
+    "Understand object identity versus equality"
+  ],
+  "prerequisites": [
+    "Basic Python syntax and concepts",
+    "Understanding of basic programming types",
+    "Experience with Object-Oriented Programming in Python"
+  ],
+  "associatedProjects": {
+    "previous": "0x08-python-more_classes",
+    "next": "0x0A-python-inheritance",
+    "related": ["python-classes", "python-more_classes"]
+  },
+  "resources": [
+    {
+      "name": "Python Documentation - Objects, values and types",
+      "url": "https://docs.python.org/3/reference/datamodel.html#objects-values-and-types"
+    },
+    {
+      "name": "Mutation in Python",
+      "url": "https://stackabuse.com/immutable-vs-mutable-types-in-python/"
+    },
+    {
+      "name": "Python Tutor - Visualize Python Code Execution",
+      "url": "http://www.pythontutor.com/visualize.html"
+    },
+    {
+      "name": "Understanding Python Variables",
+      "url": "https://realpython.com/python-variables/"
+    },
+    {
+      "name": "Python Garbage Collection",
+      "url": "https://rushter.com/blog/python-garbage-collector/"
+    }
+  ]
+}

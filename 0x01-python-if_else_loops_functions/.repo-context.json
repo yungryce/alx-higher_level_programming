@@ -1,0 +1,69 @@
+{
+  "contextType": "educational",
+  "contextName": "Python - if/else, loops, functions",
+  "contextDescription": "Understanding Python control flow basics: conditionals, loops, and function definitions",
+  "mainLanguage": "python",
+  "supportLanguages": ["c"],
+  "topics": [
+    "python-conditionals",
+    "if-else-statements",
+    "loops",
+    "for-loops",
+    "while-loops",
+    "functions",
+    "function-definition",
+    "python-operators",
+    "code-indentation",
+    "python-arithmetic",
+    "ascii-values",
+    "linked-lists",
+    "algorithms"
+  ],
+  "skillLevel": "beginner",
+  "learningObjectives": [
+    "Understand why Python programming is awesome",
+    "Learn why indentation is crucial in Python",
+    "Use if, if...else statements effectively",
+    "Add comments to Python code",
+    "Assign values to variables",
+    "Use while and for loops",
+    "Understand Python's for loop differences from C",
+    "Use break and continue statements",
+    "Use else clauses with loops",
+    "Understand the pass statement and its usage",
+    "Use range to iterate over sequences",
+    "Define and use functions",
+    "Understand function return values",
+    "Create variable scope in Python",
+    "Understand traceback error messages",
+    "Work with linked lists in C within Python projects"
+  ],
+  "prerequisites": [
+    "Basic programming concepts",
+    "Python Hello World introduction",
+    "Basic terminal/command line knowledge"
+  ],
+  "associatedProjects": {
+    "previous": "0x00-python-hello_world",
+    "next": "0x02-python-import_modules",
+    "related": ["python-data_structures"]
+  },
+  "resources": [
+    {
+      "name": "Python Documentation - Control Flow",
+      "url": "https://docs.python.org/3/tutorial/controlflow.html"
+    },
+    {
+      "name": "Python Documentation - Built-in Functions",
+      "url": "https://docs.python.org/3/library/functions.html"
+    },
+    {
+      "name": "More Control Flow Tools",
+      "url": "https://docs.python.org/3/tutorial/controlflow.html"
+    },
+    {
+      "name": "Learn to Program in Python",
+      "url": "https://www.learnpython.org/"
+    }
+  ]
+}

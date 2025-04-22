@@ -1,0 +1,72 @@
+{
+  "contextType": "educational",
+  "contextName": "Python - Classes and Objects",
+  "contextDescription": "Introduction to object-oriented programming in Python, covering classes, instances, attributes, methods, properties, and special methods",
+  "mainLanguage": "python",
+  "supportLanguages": [],
+  "topics": [
+    "python-oop",
+    "classes",
+    "objects",
+    "instances",
+    "attributes",
+    "methods",
+    "encapsulation",
+    "properties",
+    "getters",
+    "setters",
+    "private-attributes",
+    "special-methods",
+    "str-method",
+    "comparison-methods",
+    "data-structures",
+    "linked-lists"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand why Python programming is awesome",
+    "Learn Object Oriented Programming concepts",
+    "Understand the meaning of 'first-class everything'",
+    "Define what a class is and how to create one",
+    "Distinguish between class and object or instance",
+    "Understand attributes and how to use public, protected, and private attributes",
+    "Implement the 'self' concept in Python",
+    "Define methods and special methods in a class",
+    "Learn about properties and how they differ from attributes",
+    "Write and use getters and setters",
+    "Understand dynamic attribute creation",
+    "Learn about class docstrings and how to access them",
+    "Understand attribute encapsulation and information hiding",
+    "Master operator overloading through special methods",
+    "Implement data structures using OOP principles"
+  ],
+  "prerequisites": [
+    "Basic Python syntax and concepts",
+    "Functions and data types in Python",
+    "Control flow structures in Python",
+    "Exception handling in Python"
+  ],
+  "associatedProjects": {
+    "previous": "0x05-python-exceptions",
+    "next": "0x07-python-test_driven_development",
+    "related": ["python-more_classes", "python-inheritance"]
+  },
+  "resources": [
+    {
+      "name": "Python Documentation - Classes",
+      "url": "https://docs.python.org/3/tutorial/classes.html"
+    },
+    {
+      "name": "Object Oriented Programming",
+      "url": "https://python.swaroopch.com/oop.html"
+    },
+    {
+      "name": "Properties vs. Getters and Setters",
+      "url": "https://python-course.eu/oop/properties-vs-getters-and-setters.php"
+    },
+    {
+      "name": "Special Methods",
+      "url": "https://docs.python.org/3/reference/datamodel.html#special-method-names"
+    }
+  ]
+}

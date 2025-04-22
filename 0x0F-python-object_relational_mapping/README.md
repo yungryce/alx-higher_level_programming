@@ -1,5 +1,12 @@
 # Python Object-Relational Mapping (ORM)
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8.5-blue.svg" alt="Python 3.8.5">
+  <img src="https://img.shields.io/badge/MySQL-8.0-orange.svg" alt="MySQL 8.0">
+  <img src="https://img.shields.io/badge/SQLAlchemy-1.4.x-red.svg" alt="SQLAlchemy 1.4.x">
+  <img src="https://img.shields.io/badge/MySQLdb-2.0.x-green.svg" alt="MySQLdb 2.0.x">
+</p>
+
 ## Introduction
 This project connects two amazing worlds: Databases and Python!
 
@@ -38,14 +45,14 @@ By the end of this project, you should be able to explain:
 ### Installation
 
 #### Install and activate venv
-```
+```bash
 $ sudo apt-get install python3.8-venv
 $ python3 -m venv venv
 $ source venv/bin/activate
 ```
 
 #### Install MySQLdb
-```
+```bash
 $ sudo apt-get install python3-dev
 $ sudo apt-get install libmysqlclient-dev
 $ sudo apt-get install zlib1g-dev
@@ -58,7 +65,7 @@ $ python3
 ```
 
 #### Install SQLAlchemy
-```
+```bash
 $ sudo pip3 install SQLAlchemy
 ...
 $ python3
@@ -68,6 +75,9 @@ $ python3
 ```
 
 ## Project Tasks
+
+<details>
+<summary><strong>🔍 Direct Database Access with MySQLdb (Tasks 0-5)</strong></summary>
 
 ### 0. Get all states
 Write a script that lists all states from the database `hbtn_0e_0_usa`.
@@ -86,6 +96,10 @@ Write a script that lists all cities from the database `hbtn_0e_4_usa`.
 
 ### 5. All cities by state
 Write a script that takes in the name of a state as an argument and lists all cities of that state.
+</details>
+
+<details>
+<summary><strong>🔧 Object-Relational Mapping with SQLAlchemy (Tasks 6-14)</strong></summary>
 
 ### 6. First state model
 Write a python file that contains the class definition of a State and an instance Base = declarative_base().
@@ -113,15 +127,62 @@ Write a script that deletes all State objects with a name containing the letter 
 
 ### 14. Cities in state
 Write a Python file similar to model_state.py named model_city.py that contains the class definition of a City.
+</details>
+
+<details>
+<summary><strong>🌟 Advanced Relationships (Tasks 100-102)</strong></summary>
+
+### 100. Relationship states cities
+Improve the files model_city.py and model_state.py to work with a relationship.
+
+### 101. List relationship states cities
+Write a script that lists all State objects, and corresponding City objects, contained in the database hbtn_0e_101_usa.
+
+### 102. Cities by states
+List all City objects from the database hbtn_0e_101_usa, sorted by city id.
+</details>
 
 ## MySQLdb vs SQLAlchemy: A Comparison
 
-### MySQLdb
-MySQLdb is a thin Python wrapper around the MySQL C API. When you use it:
-- You write raw SQL queries as strings
-- Results are returned as tuples in a list
-- You handle the connection and cursor directly
+<table>
+  <tr>
+    <th>Feature</th>
+    <th>MySQLdb</th>
+    <th>SQLAlchemy</th>
+  </tr>
+  <tr>
+    <td>Abstraction Level</td>
+    <td>Low-level database driver</td>
+    <td>High-level ORM framework</td>
+  </tr>
+  <tr>
+    <td>Query Style</td>
+    <td>Raw SQL strings</td>
+    <td>Python objects and methods</td>
+  </tr>
+  <tr>
+    <td>Results Format</td>
+    <td>Tuples in a list</td>
+    <td>Python objects</td>
+  </tr>
+  <tr>
+    <td>Resource Management</td>
+    <td>Manual connection and cursor handling</td>
+    <td>Session-based with context management</td>
+  </tr>
+  <tr>
+    <td>SQL Injection Protection</td>
+    <td>Manual parameter binding</td>
+    <td>Built-in by default</td>
+  </tr>
+  <tr>
+    <td>Database Portability</td>
+    <td>MySQL specific</td>
+    <td>Multiple database backend support</td>
+  </tr>
+</table>
 
+### MySQLdb Example
 ```python
 #!/usr/bin/python3
 import MySQLdb
@@ -143,13 +204,7 @@ cursor.close()
 db.close()
 ```
 
-### SQLAlchemy
-SQLAlchemy is a full-featured ORM that:
-- Maps database tables to Python classes
-- Converts database records to Python objects
-- Provides a high-level, Pythonic API
-- Abstracts away the SQL syntax
-
+### SQLAlchemy Example
 ```python
 #!/usr/bin/python3
 from sqlalchemy import create_engine

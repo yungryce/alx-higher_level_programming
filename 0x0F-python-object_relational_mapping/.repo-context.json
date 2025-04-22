@@ -1,0 +1,62 @@
+{
+  "contextType": "educational",
+  "contextName": "Python - Object Relational Mapping",
+  "contextDescription": "Bridging Python and databases using MySQLdb and SQLAlchemy ORM to abstract the storage layer",
+  "mainLanguage": "python",
+  "supportLanguages": ["sql", "mysql"],
+  "topics": [
+    "object-relational-mapping",
+    "mysql-databases",
+    "mysql-python",
+    "sqlalchemy",
+    "mysqldb",
+    "database-connections",
+    "sql-queries",
+    "python-objects",
+    "database-schema",
+    "orm-relationships",
+    "sql-injection-prevention",
+    "python-virtual-environments",
+    "database-abstraction"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Connect to MySQL databases from Python scripts",
+    "Execute SELECT and INSERT operations on MySQL tables via Python",
+    "Understand ORM (Object-Relational Mapping) concepts",
+    "Map Python classes to MySQL tables using SQLAlchemy",
+    "Create and manage Python virtual environments",
+    "Prevent SQL injection attacks in database operations",
+    "Write Pythonic code to interact with databases",
+    "Implement relationships between tables using SQLAlchemy"
+  ],
+  "prerequisites": [
+    "Python programming fundamentals",
+    "Basic SQL knowledge",
+    "Understanding of object-oriented programming in Python",
+    "Familiarity with MySQL database operations"
+  ],
+  "associatedProjects": {
+    "previous": "0x0E-SQL_more_queries",
+    "next": "0x10-python-network_0",
+    "related": ["SQL_introduction", "SQL_more_queries"]
+  },
+  "resources": [
+    {
+      "name": "MySQLdb Documentation",
+      "url": "https://mysqlclient.readthedocs.io/"
+    },
+    {
+      "name": "SQLAlchemy Documentation",
+      "url": "https://docs.sqlalchemy.org/en/14/"
+    },
+    {
+      "name": "Python Virtual Environments Tutorial",
+      "url": "https://docs.python.org/3/tutorial/venv.html"
+    },
+    {
+      "name": "SQL Injection Prevention",
+      "url": "https://bobby-tables.com/python"
+    }
+  ]
+}

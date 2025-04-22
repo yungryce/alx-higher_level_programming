@@ -1,0 +1,78 @@
+{
+  "contextType": "educational",
+  "contextName": "JavaScript - Web jQuery",
+  "contextDescription": "An introduction to front-end JavaScript development using jQuery for DOM manipulation, event handling, and AJAX interactions to create dynamic web pages and interfaces.",
+  "mainLanguage": "javascript",
+  "supportLanguages": ["html", "css"],
+  "topics": [
+    "jquery",
+    "dom-manipulation",
+    "event-handling",
+    "ajax",
+    "api-consumption",
+    "selectors",
+    "front-end-development",
+    "javascript",
+    "dynamic-html",
+    "client-side-scripting",
+    "web-development",
+    "user-interface",
+    "cross-browser-compatibility",
+    "method-chaining",
+    "callback-functions"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand why jQuery is still relevant in modern web development",
+    "Select HTML elements in JavaScript vs jQuery",
+    "Create and modify DOM elements with jQuery",
+    "Listen and bind to DOM events with jQuery",
+    "Make AJAX requests to external APIs",
+    "Process JSON data from API responses",
+    "Implement dynamic content updates without page reload",
+    "Handle click events and form submissions",
+    "Manipulate CSS styles and classes with jQuery",
+    "Use event delegation for dynamic elements",
+    "Create interactive user interfaces with minimal code",
+    "Understand the advantages of jQuery over vanilla JavaScript"
+  ],
+  "prerequisites": [
+    "Basic JavaScript knowledge",
+    "Understanding of HTML and CSS fundamentals",
+    "Familiarity with DOM structure",
+    "Experience with JavaScript functions and callbacks",
+    "Knowledge of HTTP requests and responses",
+    "Understanding of JSON data format"
+  ],
+  "associatedProjects": {
+    "previous": "0x14-javascript-web_scraping",
+    "next": null,
+    "related": ["0x15-api", "0x11-python-network_1"]
+  },
+  "resources": [
+    {
+      "name": "jQuery API Documentation",
+      "url": "https://api.jquery.com/"
+    },
+    {
+      "name": "What is JavaScript?",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript"
+    },
+    {
+      "name": "Selector Reference",
+      "url": "https://api.jquery.com/category/selectors/"
+    },
+    {
+      "name": "Event API",
+      "url": "https://api.jquery.com/category/events/"
+    },
+    {
+      "name": "jQuery AJAX Documentation",
+      "url": "https://api.jquery.com/category/ajax/"
+    },
+    {
+      "name": "JSON Format",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON"
+    }
+  ]
+}

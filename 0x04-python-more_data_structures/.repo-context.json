@@ -1,0 +1,69 @@
+{
+  "contextType": "educational",
+  "contextName": "Python - More Data Structures: Set, Dictionary",
+  "contextDescription": "Advanced Python data structures focusing on sets and dictionaries, lambda functions, map/filter/reduce concepts, and understanding memory management",
+  "mainLanguage": "python",
+  "supportLanguages": ["c"],
+  "topics": [
+    "python-sets",
+    "python-dictionaries",
+    "dictionary-operations",
+    "set-operations",
+    "lambda-functions",
+    "map-reduce-filter",
+    "list-comprehensions",
+    "functional-programming",
+    "hash-tables",
+    "matrix-operations",
+    "memory-management",
+    "python-c-api",
+    "roman-numerals",
+    "data-transformation",
+    "key-value-pairs"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand why Python programming is awesome",
+    "Learn what sets are and how to use them",
+    "Understand common set methods and when to use them",
+    "Master when to use sets versus lists",
+    "Understand how to iterate through a set",
+    "Learn what dictionaries are and how to use them",
+    "Master when to use dictionaries versus lists or sets",
+    "Understand what a key in a dictionary is",
+    "Learn how to iterate over a dictionary",
+    "Master what a lambda function is",
+    "Learn what the map, reduce, and filter functions do",
+    "Understand C functions to manipulate Python objects"
+  ],
+  "prerequisites": [
+    "Basic Python syntax and concepts",
+    "Python data types and operators",
+    "Python lists and tuples",
+    "Basic control flow structures in Python",
+    "Function definition and usage in Python"
+  ],
+  "associatedProjects": {
+    "previous": "0x03-python-data_structures",
+    "next": "0x05-python-exceptions",
+    "related": ["python-test_driven_development", "python-input_output"]
+  },
+  "resources": [
+    {
+      "name": "Python Documentation - Sets",
+      "url": "https://docs.python.org/3/tutorial/datastructures.html#sets"
+    },
+    {
+      "name": "Python Documentation - Dictionaries",
+      "url": "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+    },
+    {
+      "name": "Python Documentation - Functional Programming",
+      "url": "https://docs.python.org/3/howto/functional.html"
+    },
+    {
+      "name": "Python C API Reference",
+      "url": "https://docs.python.org/3/c-api/index.html"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "contextType": "educational",
+  "contextName": "JavaScript - Warm up",
+  "contextDescription": "An introduction to JavaScript programming language, covering basic syntax, control structures, functions, and object manipulation with a focus on Node.js runtime environment.",
+  "mainLanguage": "javascript",
+  "supportLanguages": [],
+  "topics": [
+    "javascript-basics",
+    "node-js",
+    "scripting",
+    "command-line-arguments",
+    "functions",
+    "variables",
+    "conditionals",
+    "loops",
+    "objects",
+    "modules",
+    "exports",
+    "callbacks",
+    "closures",
+    "lexical-scoping",
+    "function-parameters"
+  ],
+  "skillLevel": "beginner",
+  "learningObjectives": [
+    "Understand why JavaScript programming is amazing",
+    "Run a JavaScript script from the command line",
+    "Create variables and constants in JavaScript",
+    "Master different data types available in JavaScript",
+    "Use if, if...else statements for conditional logic",
+    "Implement loops with while and for structures",
+    "Define and use functions effectively",
+    "Understand variable scope in JavaScript",
+    "Manipulate objects and arrays",
+    "Implement module patterns with require and exports",
+    "Use process.argv for command line arguments",
+    "Work with callbacks and higher order functions"
+  ],
+  "prerequisites": [
+    "Basic programming concepts",
+    "Command line interface familiarity",
+    "Understanding of variables and data types",
+    "Basic knowledge of conditional statements",
+    "Familiarity with loop structures"
+  ],
+  "associatedProjects": {
+    "previous": "0x11-python-network_1",
+    "next": "0x13-javascript_objects_scopes_closures",
+    "related": ["javascript-web_scraping", "javascript-web_jquery"]
+  },
+  "resources": [
+    {
+      "name": "Writing JavaScript",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics"
+    },
+    {
+      "name": "JavaScript Fundamentals",
+      "url": "https://javascript.info/first-steps"
+    },
+    {
+      "name": "Node.js Documentation",
+      "url": "https://nodejs.org/en/docs/"
+    },
+    {
+      "name": "JavaScript Variables",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables"
+    },
+    {
+      "name": "JavaScript Functions",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions"
+    },
+    {
+      "name": "Process Object in Node.js",
+      "url": "https://nodejs.org/api/process.html"
+    }
+  ]
+}

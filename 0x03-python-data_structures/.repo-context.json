@@ -1,0 +1,69 @@
+{
+  "contextType": "educational",
+  "contextName": "Python - Data Structures: Lists, Tuples",
+  "contextDescription": "Introduction to Python lists and tuples: creating, manipulating, and understanding fundamentals of sequential data structures",
+  "mainLanguage": "python",
+  "supportLanguages": ["c"],
+  "topics": [
+    "python-lists",
+    "python-tuples",
+    "data-structures",
+    "sequence-manipulation",
+    "list-operations",
+    "tuple-operations",
+    "array-handling",
+    "c-python-integration",
+    "linked-lists",
+    "memory-management",
+    "mutable-vs-immutable",
+    "sequential-data-access",
+    "list-comprehensions",
+    "palindrome-detection",
+    "multidimensional-arrays"
+  ],
+  "skillLevel": "beginner",
+  "learningObjectives": [
+    "Understand why Python programming is awesome",
+    "Learn what lists are and how to use them",
+    "Identify differences between strings and lists",
+    "Use common list methods",
+    "Use lists as stacks and queues",
+    "Understand list comprehensions",
+    "Learn what tuples are and how to use them",
+    "Understand when to use tuples versus lists",
+    "Learn what a sequence is in Python",
+    "Understand tuple packing and sequence unpacking",
+    "Use the del statement to delete elements",
+    "Implement C functions to work with Python objects",
+    "Manipulate complex data structures (lists of lists)"
+  ],
+  "prerequisites": [
+    "Python basics (variables, operators, etc.)",
+    "Control flow in Python (if/else, loops, functions)",
+    "Module system understanding",
+    "Basic C programming for advanced tasks"
+  ],
+  "associatedProjects": {
+    "previous": "0x02-python-import_modules",
+    "next": "0x04-python-more_data_structures",
+    "related": ["python-more_data_structures", "python-object_relational_mapping"]
+  },
+  "resources": [
+    {
+      "name": "Python Documentation - Lists",
+      "url": "https://docs.python.org/3/tutorial/datastructures.html#more-on-lists"
+    },
+    {
+      "name": "Python Documentation - Tuples",
+      "url": "https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences"
+    },
+    {
+      "name": "Python C API Reference",
+      "url": "https://docs.python.org/3/c-api/list.html"
+    },
+    {
+      "name": "Automate the Boring Stuff - Lists",
+      "url": "https://automatetheboringstuff.com/2e/chapter4/"
+    }
+  ]
+}
