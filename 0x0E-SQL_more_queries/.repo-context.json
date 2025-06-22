@@ -1,58 +1,52 @@
 {
-  "contextType": "educational",
-  "contextName": "SQL - More Queries",
-  "contextDescription": "Advanced SQL operations focusing on user permissions, constraints, joins, and complex queries using MySQL",
-  "mainLanguage": "sql",
-  "supportLanguages": ["mysql", "bash"],
+  "project_identity": {
+    "name": "0x0E-SQL_more_queries",
+    "type": "educational",
+    "scope": "Advanced SQL operations focusing on user permissions, constraints, joins, and complex queries using MySQL.",
+    "is_independent": false,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Advanced SQL operations focusing on user permissions, constraints, joins, and complex queries using MySQL."
+  },
+  "tech_stack": {
+    "primary": ["sql"],
+    "secondary": ["mysql", "bash"],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Manage users and permissions in MySQL",
+      "Write complex queries with joins and subqueries"
+    ],
+    "domain": [
+      "sql-databases"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "mysql-user-management",
     "permissions",
-    "grant-revoke",
-    "constraints",
-    "primary-keys",
-    "foreign-keys",
-    "not-null",
-    "unique",
-    "joins",
-    "left-join",
-    "right-join",
-    "inner-join",
-    "union",
-    "subqueries",
-    "database-relationships"
+    "joins"
   ],
   "skillLevel": "intermediate",
-  "learningObjectives": [
-    "Create and manage MySQL users with specific privileges",
-    "Implement constraints including PRIMARY KEY, FOREIGN KEY, NOT NULL, and UNIQUE",
-    "Design and query relational databases with proper table relationships",
-    "Use JOIN operations to retrieve data from multiple tables",
-    "Write and execute subqueries for complex data retrieval",
-    "Apply UNION to combine result sets from multiple queries",
-    "Understand and implement database design best practices"
-  ],
-  "prerequisites": [
-    "Basic SQL knowledge (SELECT, INSERT, UPDATE, DELETE)",
-    "Database creation and basic table management",
-    "Understanding of relational database concepts"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Write advanced SQL queries"
+    ],
+    "softSkills": []
+  },
+  "prerequisites": ["Basic SQL knowledge (SELECT, INSERT, UPDATE, DELETE)"],
   "associatedProjects": {
     "previous": "0x0D-SQL_introduction",
     "next": "0x0F-python-object_relational_mapping",
     "related": ["python-object_relational_mapping"]
   },
-  "resources": [
-    {
-      "name": "MySQL Documentation",
-      "url": "https://dev.mysql.com/doc/"
-    },
-    {
-      "name": "SQL Joins Visualizer",
-      "url": "https://joins.spathon.com/"
-    },
-    {
-      "name": "MySQL User Management",
-      "url": "https://dev.mysql.com/doc/refman/8.0/en/user-account-management.html"
-    }
-  ]
+  "files": {
+    "authors_file": "../../AUTHORS",
+    "license_file": "../../LICENSE.txt",
+    "readme_file": "README.md",
+    "requirements_file": ""
+  }
 }

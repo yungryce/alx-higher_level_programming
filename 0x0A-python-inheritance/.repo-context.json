@@ -1,63 +1,52 @@
 {
-  "contextType": "educational",
-  "contextName": "Python Inheritance",
-  "contextDescription": "Exploring object-oriented programming through inheritance in Python, covering parent classes, subclasses, method overriding, and multiple inheritance",
-  "mainLanguage": "python",
-  "supportLanguages": ["unittest"],
+  "project_identity": {
+    "name": "0x0A-python-inheritance",
+    "type": "educational",
+    "scope": "Exploring object-oriented programming through inheritance in Python, covering parent classes, subclasses, method overriding, and multiple inheritance.",
+    "is_independent": false,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Exploring object-oriented programming through inheritance in Python, covering parent classes, subclasses, method overriding, and multiple inheritance."
+  },
+  "tech_stack": {
+    "primary": ["python"],
+    "secondary": ["unittest"],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Create and use parent and child classes",
+      "Override methods and use multiple inheritance"
+    ],
+    "domain": [
+      "python-programming"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "object-oriented-programming",
     "inheritance",
-    "subclasses",
-    "method-overriding",
-    "multiple-inheritance",
-    "isinstance",
-    "issubclass",
-    "super",
-    "type-checking",
-    "abstract-classes"
+    "subclasses"
   ],
   "skillLevel": "intermediate",
-  "learningObjectives": [
-    "Understand inheritance as an object-oriented programming mechanism",
-    "Create and use parent and child classes effectively",
-    "Override methods from parent classes",
-    "Implement multiple inheritance and manage method resolution order",
-    "Use built-in functions like isinstance, issubclass, type, and super",
-    "Create abstract base classes and interfaces",
-    "Apply test-driven development with unittest framework",
-    "Follow Python's documentation conventions"
-  ],
-  "prerequisites": [
-    "Basic Python programming",
-    "Understanding of classes and objects",
-    "Experience with modules and imports",
-    "Familiarity with Python's built-in functions"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Use inheritance and OOP in Python"
+    ],
+    "softSkills": []
+  },
+  "prerequisites": ["Basic Python programming"],
   "associatedProjects": {
     "previous": "0x09-python-everything_is_object",
     "next": "0x0B-python-input_output",
     "related": ["0x06-python-classes", "0x07-python-test_driven_development"]
   },
-  "resources": [
-    {
-      "name": "Python Documentation - Inheritance",
-      "url": "https://docs.python.org/3/tutorial/classes.html#inheritance"
-    },
-    {
-      "name": "Python Documentation - isinstance()",
-      "url": "https://docs.python.org/3/library/functions.html#isinstance"
-    },
-    {
-      "name": "Python Documentation - issubclass()",
-      "url": "https://docs.python.org/3/library/functions.html#issubclass"
-    },
-    {
-      "name": "Python Documentation - super()",
-      "url": "https://docs.python.org/3/library/functions.html#super"
-    },
-    {
-      "name": "Multiple Inheritance and Method Resolution Order",
-      "url": "https://www.python.org/download/releases/2.3/mro/"
-    }
-  ]
+  "files": {
+    "authors_file": "../../AUTHORS",
+    "license_file": "../../LICENSE.txt",
+    "readme_file": "README.md",
+    "requirements_file": ""
+  }
 }

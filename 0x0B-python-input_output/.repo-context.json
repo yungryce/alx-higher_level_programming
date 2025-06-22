@@ -1,61 +1,52 @@
 {
-  "contextType": "educational",
-  "contextName": "Python Input/Output",
-  "contextDescription": "Learning file handling operations in Python, including reading, writing, JSON serialization, and object persistence",
-  "mainLanguage": "python",
-  "supportLanguages": ["json"],
+  "project_identity": {
+    "name": "0x0B-python-input_output",
+    "type": "educational",
+    "scope": "Learning file handling operations in Python, including reading, writing, JSON serialization, and object persistence.",
+    "is_independent": false,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Learning file handling operations in Python, including reading, writing, JSON serialization, and object persistence."
+  },
+  "tech_stack": {
+    "primary": ["python"],
+    "secondary": ["json"],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Read and write files in Python",
+      "Serialize and deserialize objects with JSON"
+    ],
+    "domain": [
+      "python-programming"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "file-handling",
     "input-output",
-    "file-modes",
-    "read-write-operations",
-    "context-managers",
-    "json-serialization",
-    "deserialization",
-    "object-persistence",
-    "file-encoding",
-    "error-handling"
+    "json-serialization"
   ],
   "skillLevel": "intermediate",
-  "learningObjectives": [
-    "Open and manipulate files in various modes",
-    "Read data from files using different methods",
-    "Write data to files with proper formatting",
-    "Use context managers for file operations",
-    "Understand file paths and directories",
-    "Serialize and deserialize objects using JSON",
-    "Implement object persistence through file storage",
-    "Handle file-related exceptions appropriately",
-    "Convert between Python objects and JSON representation",
-    "Develop good practices for file handling operations"
-  ],
-  "prerequisites": [
-    "Basic Python programming",
-    "Understanding of data types and structures",
-    "Experience with classes and objects",
-    "Familiarity with Python's built-in functions"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Handle file I/O and persistence"
+    ],
+    "softSkills": []
+  },
+  "prerequisites": ["Basic Python programming"],
   "associatedProjects": {
     "previous": "0x0A-python-inheritance",
     "next": "0x0C-python-almost_a_circle",
     "related": ["0x08-python-more_classes", "0x09-python-everything_is_object"]
   },
-  "resources": [
-    {
-      "name": "Python Documentation - Reading and Writing Files",
-      "url": "https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files"
-    },
-    {
-      "name": "Python Documentation - JSON encoder and decoder",
-      "url": "https://docs.python.org/3/library/json.html"
-    },
-    {
-      "name": "Understanding Python's with statement",
-      "url": "https://effbot.org/zone/python-with-statement.htm"
-    },
-    {
-      "name": "Context Managers and the with Statement",
-      "url": "https://realpython.com/python-with-statement/"
-    }
-  ]
+  "files": {
+    "authors_file": "../../AUTHORS",
+    "license_file": "../../LICENSE.txt",
+    "readme_file": "README.md",
+    "requirements_file": ""
+  }
 }

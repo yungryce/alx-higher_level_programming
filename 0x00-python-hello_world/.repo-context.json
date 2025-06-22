@@ -1,51 +1,53 @@
 {
-  "contextType": "educational",
-  "contextName": "Python Hello World",
-  "contextDescription": "Introduction to Python programming fundamentals covering basic syntax, string manipulation, output operations, and code organization",
-  "mainLanguage": "python",
-  "supportLanguages": ["c", "shell"],
+  "project_identity": {
+    "name": "0x00-python-hello_world",
+    "type": "educational",
+    "scope": "Introduction to Python programming fundamentals covering basic syntax, string manipulation, output operations, and code organization.",
+    "is_independent": false,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Introduction to Python programming fundamentals covering basic syntax, string manipulation, output operations, and code organization."
+  },
+  "tech_stack": {
+    "primary": ["python"],
+    "secondary": ["c", "shell"],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Run Python scripts using different methods",
+      "Utilize print function for formatted output"
+    ],
+    "domain": [
+      "python-programming"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "python-basics",
     "string-manipulation",
-    "standard-io",
-    "scripting",
-    "code-style",
-    "interpreter",
-    "variables",
-    "basic-data-types"
+    "standard-io"
   ],
   "skillLevel": "beginner",
-  "learningObjectives": [
-    "Run Python scripts using different methods",
-    "Utilize print function for formatted output",
-    "Manipulate strings and string slicing",
-    "Understand Python's implementation (CPython)",
-    "Work with variables and basic data types",
-    "Apply proper coding style guidelines (PEP8)",
-    "Connect Python with C code through extension modules",
-    "Use the interpreter in interactive mode"
-  ],
-  "prerequisites": [
-    "Basic programming concepts",
-    "Command line familiarity",
-    "Text editor knowledge"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Run Python scripts",
+      "Manipulate strings"
+    ],
+    "softSkills": []
+  },
+  "prerequisites": ["Basic programming concepts"],
   "associatedProjects": {
+    "previous": "",
     "next": "0x01-python-if_else_loops_functions",
     "related": ["alx-low_level_programming"]
   },
-  "resources": [
-    {
-      "name": "Python Documentation",
-      "url": "https://docs.python.org/3/"
-    },
-    {
-      "name": "PEP 8 Style Guide",
-      "url": "https://www.python.org/dev/peps/pep-0008/"
-    },
-    {
-      "name": "The Zen of Python",
-      "url": "https://www.python.org/dev/peps/pep-0020/"
-    }
-  ]
+  "files": {
+    "authors_file": "../../AUTHORS",
+    "license_file": "../../LICENSE.txt",
+    "readme_file": "README.md",
+    "requirements_file": ""
+  }
 }

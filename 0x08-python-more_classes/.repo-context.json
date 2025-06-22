@@ -1,76 +1,52 @@
 {
-  "contextType": "educational",
-  "contextName": "Python - More Classes and Objects",
-  "contextDescription": "Advanced Object-Oriented Programming in Python, focusing on class attributes, special methods, string representation, and operator overloading.",
-  "mainLanguage": "python",
-  "supportLanguages": [],
+  "project_identity": {
+    "name": "0x08-python-more_classes",
+    "type": "educational",
+    "scope": "Advanced Object-Oriented Programming in Python, focusing on class attributes, special methods, string representation, and operator overloading.",
+    "is_independent": false,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Advanced Object-Oriented Programming in Python, focusing on class attributes, special methods, string representation, and operator overloading."
+  },
+  "tech_stack": {
+    "primary": ["python"],
+    "secondary": [],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Use class and instance attributes",
+      "Implement special and magic methods"
+    ],
+    "domain": [
+      "python-programming"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "python-oop",
     "classes",
-    "objects",
-    "class-attributes",
-    "instance-attributes",
-    "special-methods",
-    "magic-methods",
-    "operator-overloading",
-    "string-representation",
-    "property-decorators",
-    "encapsulation",
-    "static-methods",
-    "class-methods",
-    "instance-tracking",
-    "destruction",
-    "n-queens"
+    "objects"
   ],
   "skillLevel": "intermediate",
-  "learningObjectives": [
-    "Understand why Python programming is awesome",
-    "Learn what Object Oriented Programming is",
-    "Define 'first-class everything' in Python",
-    "Understand the difference between a class and an object",
-    "Differentiate attributes and their visibility (public, protected, private)",
-    "Implement the 'self' concept in Python",
-    "Define properties and implement getters/setters",
-    "Work with class attributes vs instance attributes",
-    "Implement special methods for string representation (__str__, __repr__)",
-    "Track class instances with class attributes",
-    "Implement proper clean-up with destructors (__del__)",
-    "Use static methods for functionality independent of instance state",
-    "Use class methods to create alternative constructors",
-    "Customize object comparison and evaluation",
-    "Handle instance creation and destruction events",
-    "Solve the N-Queens problem using OOP principles"
-  ],
-  "prerequisites": [
-    "Basic Python syntax and concepts",
-    "Functions and data types in Python",
-    "Basic OOP principles in Python (0x06-python-classes)"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Use advanced OOP in Python"
+    ],
+    "softSkills": []
+  },
+  "prerequisites": ["Basic Python syntax and concepts"],
   "associatedProjects": {
     "previous": "0x07-python-test_driven_development",
     "next": "0x09-python-everything_is_object",
-    "related": ["python-classes", "python-inheritance"]
+    "related": []
   },
-  "resources": [
-    {
-      "name": "Python Documentation - Classes",
-      "url": "https://docs.python.org/3/tutorial/classes.html"
-    },
-    {
-      "name": "Special Method Names",
-      "url": "https://docs.python.org/3/reference/datamodel.html#special-method-names"
-    },
-    {
-      "name": "Class and Instance Attributes",
-      "url": "https://python-course.eu/oop/class-instance-attributes.php"
-    },
-    {
-      "name": "Classmethods and Staticmethods",
-      "url": "https://realpython.com/instance-class-and-static-methods-demystified/"
-    },
-    {
-      "name": "N-Queens Problem",
-      "url": "https://en.wikipedia.org/wiki/Eight_queens_puzzle"
-    }
-  ]
+  "files": {
+    "authors_file": "../../AUTHORS",
+    "license_file": "../../LICENSE.txt",
+    "readme_file": "README.md",
+    "requirements_file": ""
+  }
 }

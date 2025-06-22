@@ -1,66 +1,52 @@
 {
-  "contextType": "educational",
-  "contextName": "Python - Exceptions",
-  "contextDescription": "Understanding Python's error handling mechanisms and exception management using try-except blocks and custom exception raising",
-  "mainLanguage": "python",
-  "supportLanguages": ["c"],
+  "project_identity": {
+    "name": "0x05-python-exceptions",
+    "type": "educational",
+    "scope": "Understanding Python's error handling mechanisms and exception management using try-except blocks and custom exception raising.",
+    "is_independent": false,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Understanding Python's error handling mechanisms and exception management using try-except blocks and custom exception raising."
+  },
+  "tech_stack": {
+    "primary": ["python"],
+    "secondary": ["c"],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Use try-except blocks",
+      "Raise and handle exceptions"
+    ],
+    "domain": [
+      "python-programming"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "python-exceptions",
     "error-handling",
-    "try-except-blocks",
-    "exception-hierarchy",
-    "raising-exceptions",
-    "finally-clause",
-    "multiple-exceptions",
-    "clean-up-actions",
-    "traceback-handling",
-    "program-robustness",
-    "defensive-programming",
-    "python-c-api",
-    "memory-safety",
-    "graceful-degradation",
-    "zero-division-error"
+    "try-except-blocks"
   ],
   "skillLevel": "intermediate",
-  "learningObjectives": [
-    "Understand why Python programming is awesome",
-    "Learn the difference between errors and exceptions",
-    "Master what exceptions are and how to use them",
-    "When and how to correctly handle exceptions",
-    "Understand the purpose of catching exceptions",
-    "How to raise a built-in exception",
-    "When to implement a clean-up action after an exception",
-    "Integrate C functions with Python's exception system",
-    "Create robust programs that can handle unexpected conditions",
-    "Use sys.stderr for error output"
-  ],
-  "prerequisites": [
-    "Basic Python syntax and concepts",
-    "Python functions and control flow",
-    "Basic data structures in Python",
-    "Understanding of Python objects"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Handle exceptions in Python"
+    ],
+    "softSkills": []
+  },
+  "prerequisites": ["Basic Python syntax and concepts"],
   "associatedProjects": {
     "previous": "0x04-python-more_data_structures",
     "next": "0x06-python-classes",
     "related": ["python-test_driven_development", "python-input_output"]
   },
-  "resources": [
-    {
-      "name": "Python Documentation - Errors and Exceptions",
-      "url": "https://docs.python.org/3/tutorial/errors.html"
-    },
-    {
-      "name": "Python Exception Hierarchy",
-      "url": "https://docs.python.org/3/library/exceptions.html#exception-hierarchy"
-    },
-    {
-      "name": "Python C API - Exception Handling",
-      "url": "https://docs.python.org/3/c-api/exceptions.html"
-    },
-    {
-      "name": "Real Python - Python Exceptions",
-      "url": "https://realpython.com/python-exceptions/"
-    }
-  ]
+  "files": {
+    "authors_file": "../../AUTHORS",
+    "license_file": "../../LICENSE.txt",
+    "readme_file": "README.md",
+    "requirements_file": ""
+  }
 }

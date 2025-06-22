@@ -1,9 +1,40 @@
 {
-  "contextType": "educational",
-  "contextName": "Python - Network #0",
-  "contextDescription": "Introduction to HTTP protocols, web APIs, and command-line networking tools, focusing on curl and HTTP request/response structure through bash scripting with practical implementations.",
-  "mainLanguage": "bash",
-  "supportLanguages": ["python"],
+  "project_identity": {
+    "name": "Python - Network #0",
+    "type": "educational",
+    "scope": "HTTP Protocols and Web Communication",
+    "is_independent": false,
+    "version": "1.0",
+    "related_versions": [],
+    "description": "Introduction to HTTP protocols, web APIs, and command-line networking tools, focusing on curl and HTTP request/response structure through bash scripting with practical implementations."
+  },
+  "tech_stack": {
+    "primary": ["bash"],
+    "secondary": ["python"],
+    "key_libraries": ["curl"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "http",
+      "http-methods",
+      "http-headers",
+      "request-response",
+      "url",
+      "curl",
+      "api",
+      "web-development",
+      "status-codes",
+      "get-requests",
+      "post-requests",
+      "delete-requests",
+      "url-parameters",
+      "cookies",
+      "json"
+    ],
+    "domain": ["Networking", "Web"]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "http",
     "http-methods",
@@ -22,21 +53,25 @@
     "json"
   ],
   "skillLevel": "intermediate",
-  "learningObjectives": [
-    "Understand what a URL is and its structure",
-    "Learn what HTTP is and how it works",
-    "Master the concepts of domain names and sub-domains",
-    "Define what a query string is and how it's used",
-    "Understand HTTP request and response structures",
-    "Recognize HTTP headers and their importance",
-    "Work with HTTP cookies for state management",
-    "Use curl to make HTTP requests from the command line",
-    "Understand HTTP response status codes",
-    "Implement simple API consumption patterns",
-    "Differentiate between HTTP methods (GET, POST, PUT, DELETE)",
-    "Understand how to send parameters in HTTP requests",
-    "Work with JSON data in HTTP requests and responses"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Understand what a URL is and its structure",
+      "Learn what HTTP is and how it works",
+      "Master the concepts of domain names and sub-domains",
+      "Define what a query string is and how it's used",
+      "Understand HTTP request and response structures",
+      "Recognize HTTP headers and their importance",
+      "Work with HTTP cookies for state management",
+      "Use curl to make HTTP requests from the command line",
+      "Understand HTTP response status codes",
+      "Implement simple API consumption patterns",
+      "Differentiate between HTTP methods (GET, POST, PUT, DELETE)",
+      "Understand how to send parameters in HTTP requests",
+      "Work with JSON data in HTTP requests and responses"
+    ],
+    "softSkills": []
+  },
   "prerequisites": [
     "Basic Linux/Unix command line proficiency",
     "Basic understanding of networking concepts",
@@ -49,26 +84,10 @@
     "next": "0x11-python-network_1",
     "related": ["python-network_1", "javascript-web_scraping"]
   },
-  "resources": [
-    {
-      "name": "HTTP (HyperText Transfer Protocol)",
-      "url": "https://www.tutorialspoint.com/http/index.htm"
-    },
-    {
-      "name": "HTTP Cookies",
-      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies"
-    },
-    {
-      "name": "Curl Documentation",
-      "url": "https://curl.haxx.se/docs/"
-    },
-    {
-      "name": "HTTP Status Codes",
-      "url": "https://www.restapitutorial.com/httpstatuscodes.html"
-    },
-    {
-      "name": "URL Anatomy",
-      "url": "https://doepud.co.uk/blog/anatomy-of-a-url"
-    }
-  ]
+  "files": {
+    "authors_file": "",
+    "license_file": "",
+    "readme_file": "README.md",
+    "requirements_file": ""
+  }
 }

@@ -1,60 +1,52 @@
 {
-  "contextType": "educational",
-  "contextName": "Python Almost a Circle",
-  "contextDescription": "Comprehensive Python OOP project implementing geometric classes with inheritance, serialization, and unit testing concepts",
-  "mainLanguage": "python",
-  "supportLanguages": ["json", "csv"],
+  "project_identity": {
+    "name": "0x0C-python-almost_a_circle",
+    "type": "educational",
+    "scope": "Comprehensive Python OOP project implementing geometric classes with inheritance, serialization, and unit testing concepts.",
+    "is_independent": false,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Comprehensive Python OOP project implementing geometric classes with inheritance, serialization, and unit testing concepts."
+  },
+  "tech_stack": {
+    "primary": ["python"],
+    "secondary": ["json", "csv"],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Implement OOP with inheritance and serialization",
+      "Write unit tests for Python classes"
+    ],
+    "domain": [
+      "python-programming"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "python-oop",
     "inheritance",
-    "encapsulation",
-    "data-validation",
-    "json-serialization",
-    "csv-serialization",
-    "file-io",
-    "unit-testing",
-    "test-driven-development",
-    "args-kwargs"
+    "json-serialization"
   ],
   "skillLevel": "intermediate",
-  "learningObjectives": [
-    "Implement Python classes using inheritance hierarchies",
-    "Apply encapsulation with private attributes and getters/setters",
-    "Validate data with property decorators",
-    "Serialize/deserialize objects to/from JSON and CSV formats",
-    "Implement custom class methods and static methods",
-    "Create comprehensive unit tests with the unittest framework",
-    "Use *args and **kwargs for flexible method signatures",
-    "Apply the __init__ method for proper object initialization",
-    "Implement file I/O operations with context managers"
-  ],
-  "prerequisites": [
-    "Python basic syntax and data types",
-    "Understanding of OOP principles",
-    "Basic knowledge of JSON format",
-    "Familiarity with test-driven development concepts"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Build OOP projects with testing"
+    ],
+    "softSkills": []
+  },
+  "prerequisites": ["Python basic syntax and data types"],
   "associatedProjects": {
     "previous": "0x0B-python-input_output",
     "next": "0x0D-SQL_introduction",
     "related": ["0x08-python-more_classes", "0x0A-python-inheritance"]
   },
-  "resources": [
-    {
-      "name": "Python Documentation - Classes",
-      "url": "https://docs.python.org/3/tutorial/classes.html"
-    },
-    {
-      "name": "Python unittest Documentation",
-      "url": "https://docs.python.org/3/library/unittest.html"
-    },
-    {
-      "name": "Python JSON Documentation",
-      "url": "https://docs.python.org/3/library/json.html"
-    },
-    {
-      "name": "Python CSV Documentation",
-      "url": "https://docs.python.org/3/library/csv.html"
-    }
-  ]
+  "files": {
+    "authors_file": "../../AUTHORS",
+    "license_file": "../../LICENSE.txt",
+    "readme_file": "README.md",
+    "requirements_file": ""
+  }
 }

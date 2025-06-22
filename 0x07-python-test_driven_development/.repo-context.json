@@ -1,68 +1,52 @@
 {
-  "contextType": "educational",
-  "contextName": "Python - Test-Driven Development",
-  "contextDescription": "Introduction to test-driven development in Python, focusing on doctest and unittest frameworks, writing test cases, and validating code through comprehensive testing",
-  "mainLanguage": "python",
-  "supportLanguages": ["txt"],
+  "project_identity": {
+    "name": "0x07-python-test_driven_development",
+    "type": "educational",
+    "scope": "Introduction to test-driven development in Python, focusing on doctest and unittest frameworks, writing test cases, and validating code through comprehensive testing.",
+    "is_independent": false,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Introduction to test-driven development in Python, focusing on doctest and unittest frameworks, writing test cases, and validating code through comprehensive testing."
+  },
+  "tech_stack": {
+    "primary": ["python"],
+    "secondary": ["txt"],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Write and run tests with doctest and unittest",
+      "Validate code with test cases"
+    ],
+    "domain": [
+      "python-programming"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "python-tdd",
     "doctest",
-    "unittest",
-    "test-cases",
-    "edge-cases",
-    "test-first-development",
-    "code-validation",
-    "documentation",
-    "docstrings",
-    "assertions",
-    "test-fixtures",
-    "test-discovery",
-    "test-driven-design",
-    "input-validation",
-    "exception-testing"
+    "unittest"
   ],
   "skillLevel": "intermediate",
-  "learningObjectives": [
-    "Understand why Python programming is awesome",
-    "Learn what an interactive test is and why tests are important",
-    "Master writing docstrings to create tests",
-    "Write documentation for modules and functions",
-    "Create basic option flags to create tests",
-    "Find edge cases and implement test cases for them",
-    "Understand the concept of Test-Driven Development",
-    "Learn to write tests before implementing functions",
-    "Use both doctest and unittest frameworks",
-    "Master the difference between using assertion and raising exceptions",
-    "Validate code against test cases systematically",
-    "Follow a test-first development approach"
-  ],
-  "prerequisites": [
-    "Python basics and syntax",
-    "Functions and modules in Python",
-    "Exception handling in Python",
-    "Object-oriented programming in Python"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Test Python code with TDD"
+    ],
+    "softSkills": []
+  },
+  "prerequisites": ["Python basics and syntax"],
   "associatedProjects": {
     "previous": "0x06-python-classes",
     "next": "0x08-python-more_classes",
     "related": ["python-exceptions", "python-input_output"]
   },
-  "resources": [
-    {
-      "name": "Python Documentation - doctest",
-      "url": "https://docs.python.org/3/library/doctest.html"
-    },
-    {
-      "name": "Python Documentation - unittest",
-      "url": "https://docs.python.org/3/library/unittest.html"
-    },
-    {
-      "name": "Test-Driven Development with Python",
-      "url": "https://www.obeythetestinggoat.com/pages/book.html"
-    },
-    {
-      "name": "doctest — Test interactive Python examples",
-      "url": "https://pymotw.com/3/doctest/"
-    }
-  ]
+  "files": {
+    "authors_file": "../../AUTHORS",
+    "license_file": "../../LICENSE.txt",
+    "readme_file": "README.md",
+    "requirements_file": ""
+  }
 }

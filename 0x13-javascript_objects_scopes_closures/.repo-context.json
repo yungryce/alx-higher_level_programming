@@ -1,9 +1,40 @@
 {
-  "contextType": "educational",
-  "contextName": "JavaScript - Objects, Scopes and Closures",
-  "contextDescription": "A deep dive into JavaScript object-oriented programming, scope chains, closures, prototype inheritance, and class implementation, building on the JavaScript fundamentals established in the warm-up module.",
-  "mainLanguage": "javascript",
-  "supportLanguages": [],
+  "project_identity": {
+    "name": "JavaScript - Objects, Scopes and Closures",
+    "type": "educational",
+    "scope": "JavaScript OOP, scope chains, closures, and class implementation",
+    "is_independent": false,
+    "version": "1.0",
+    "related_versions": [],
+    "description": "A deep dive into JavaScript object-oriented programming, scope chains, closures, prototype inheritance, and class implementation, building on the JavaScript fundamentals established in the warm-up module."
+  },
+  "tech_stack": {
+    "primary": ["javascript"],
+    "secondary": [],
+    "key_libraries": ["node.js"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "javascript-classes",
+      "object-oriented-programming",
+      "inheritance",
+      "prototype-chain",
+      "class-extensions",
+      "method-implementation",
+      "constructor-functions",
+      "module-patterns",
+      "variable-scope",
+      "lexical-scoping",
+      "closures",
+      "higher-order-functions",
+      "function-expressions",
+      "file-system-operations",
+      "array-manipulation"
+    ],
+    "domain": ["Web", "Scripting"]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "javascript-classes",
     "object-oriented-programming",
@@ -22,21 +53,25 @@
     "array-manipulation"
   ],
   "skillLevel": "intermediate",
-  "learningObjectives": [
-    "Create and use JavaScript classes and objects",
-    "Understand the difference between Class and object in JavaScript",
-    "Implement inheritance between JavaScript classes",
-    "Define and use class constructors and methods",
-    "Leverage closures for data encapsulation",
-    "Implement the module pattern for code organization",
-    "Work with variable scope and lexical environment",
-    "Apply prototype-based inheritance concepts",
-    "Manipulate arrays with map, filter, and reduce",
-    "Understand function expressions and callbacks",
-    "Create and use higher-order functions",
-    "Implement basic file system operations",
-    "Transform data structures using functional approaches"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Create and use JavaScript classes and objects",
+      "Understand the difference between Class and object in JavaScript",
+      "Implement inheritance between JavaScript classes",
+      "Define and use class constructors and methods",
+      "Leverage closures for data encapsulation",
+      "Implement the module pattern for code organization",
+      "Work with variable scope and lexical environment",
+      "Apply prototype-based inheritance concepts",
+      "Manipulate arrays with map, filter, and reduce",
+      "Understand function expressions and callbacks",
+      "Create and use higher-order functions",
+      "Implement basic file system operations",
+      "Transform data structures using functional approaches"
+    ],
+    "softSkills": []
+  },
   "prerequisites": [
     "JavaScript basics (variables, functions, loops)",
     "Basic object manipulation",
@@ -49,34 +84,10 @@
     "next": "0x14-javascript-web_scraping",
     "related": ["javascript-web_jquery", "javascript-web_scraping"]
   },
-  "resources": [
-    {
-      "name": "JavaScript Object Basics",
-      "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics"
-    },
-    {
-      "name": "Object-oriented JavaScript",
-      "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS"
-    },
-    {
-      "name": "Class Inheritance",
-      "url": "https://javascript.info/class-inheritance"
-    },
-    {
-      "name": "JavaScript Classes",
-      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes"
-    },
-    {
-      "name": "Closures",
-      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures"
-    },
-    {
-      "name": "Prototype Inheritance",
-      "url": "https://javascript.info/prototype-inheritance"
-    },
-    {
-      "name": "Array Methods",
-      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
-    }
-  ]
+  "files": {
+    "authors_file": "",
+    "license_file": "",
+    "readme_file": "README.md",
+    "requirements_file": ""
+  }
 }

@@ -1,9 +1,40 @@
 {
-  "contextType": "educational",
-  "contextName": "JavaScript - Web Scraping",
-  "contextDescription": "An exploration of web scraping and API interaction using JavaScript in Node.js, focusing on file system operations, HTTP requests, JSON data processing, and asynchronous programming patterns.",
-  "mainLanguage": "javascript",
-  "supportLanguages": ["json"],
+  "project_identity": {
+    "name": "JavaScript - Web Scraping",
+    "type": "educational",
+    "scope": "API Interaction and Web Scraping with Node.js",
+    "is_independent": false,
+    "version": "1.0",
+    "related_versions": [],
+    "description": "An exploration of web scraping and API interaction using JavaScript in Node.js, focusing on file system operations, HTTP requests, JSON data processing, and asynchronous programming patterns."
+  },
+  "tech_stack": {
+    "primary": ["javascript"],
+    "secondary": ["json"],
+    "key_libraries": ["request", "fs"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "web-scraping",
+      "node-js",
+      "javascript",
+      "api-interaction",
+      "http-requests",
+      "request-module",
+      "file-system-operations",
+      "json-processing",
+      "asynchronous-programming",
+      "promises",
+      "callbacks",
+      "error-handling",
+      "command-line-arguments",
+      "data-extraction",
+      "data-manipulation"
+    ],
+    "domain": ["Web", "Automation"]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "web-scraping",
     "node-js",
@@ -22,20 +53,24 @@
     "data-manipulation"
   ],
   "skillLevel": "intermediate",
-  "learningObjectives": [
-    "Manipulate JSON data with JavaScript",
-    "Use the request module to make HTTP requests",
-    "Read and write files using the fs module",
-    "Process command-line arguments in Node.js",
-    "Handle asynchronous operations with callbacks",
-    "Extract specific data from API responses",
-    "Implement proper error handling for HTTP and file operations",
-    "Understand response status codes and headers",
-    "Transform and filter data from external sources",
-    "Create scripts that interact with web APIs",
-    "Store web content in local files",
-    "Parse and process structured API responses"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Manipulate JSON data with JavaScript",
+      "Use the request module to make HTTP requests",
+      "Read and write files using the fs module",
+      "Process command-line arguments in Node.js",
+      "Handle asynchronous operations with callbacks",
+      "Extract specific data from API responses",
+      "Implement proper error handling for HTTP and file operations",
+      "Understand response status codes and headers",
+      "Transform and filter data from external sources",
+      "Create scripts that interact with web APIs",
+      "Store web content in local files",
+      "Parse and process structured API responses"
+    ],
+    "softSkills": []
+  },
   "prerequisites": [
     "JavaScript fundamentals (variables, functions, conditionals)",
     "Basic understanding of Node.js runtime",
@@ -49,30 +84,10 @@
     "next": "0x15-javascript-web_jquery",
     "related": ["0x11-python-network_1", "0x10-python-network_0"]
   },
-  "resources": [
-    {
-      "name": "Working with Files in Node.js",
-      "url": "https://nodejs.org/api/fs.html"
-    },
-    {
-      "name": "Request - Simplified HTTP client",
-      "url": "https://github.com/request/request"
-    },
-    {
-      "name": "JSON Introduction",
-      "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON"
-    },
-    {
-      "name": "Star Wars API",
-      "url": "https://swapi.dev/"
-    },
-    {
-      "name": "Modern Asynchronous JavaScript",
-      "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous"
-    },
-    {
-      "name": "The Marvel of Web Scraping with Node.js",
-      "url": "https://www.freecodecamp.org/news/the-ultimate-guide-to-web-scraping-with-node-js-daa2027dcd3/"
-    }
-  ]
+  "files": {
+    "authors_file": "",
+    "license_file": "",
+    "readme_file": "README.md",
+    "requirements_file": ""
+  }
 }
